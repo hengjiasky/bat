@@ -47,8 +47,7 @@ md d:\abc\abcd\abcde<br>
 RMDIR [/S] [/Q] [drive:]path<br>
 RD [/S] [/Q] [drive:]path<br>
 ```Batchfile
-    /S      除目录本身外，还将删除指定目录下的所有子目录和
-            文件。用于删除目录树。
+    /S      除目录本身外，还将删除指定目录下的所有子目录和文件。用于删除目录树。
     /Q      安静模式，带 /S 删除目录树时不要求确认
 ```
 
@@ -116,9 +115,7 @@ MOVE [/Y | /-Y] [drive:][path]filename1[,...] destination<br>
 MOVE [/Y | /-Y] [drive:][path]dirname1 dirname2<br>
 ```Batchfile
   [drive:][path]filename1 指定您想移动的文件位置和名称。
-  destination             指定文件的新位置。目标可包含一个驱动器号
-                          和冒号、一个目录名或组合。如果只移动一个文件
-                          并在移动时将其重命名，您还可以包括文件名。
+  destination             指定文件的新位置。目标可包含一个驱动器号和冒号、一个目录名或组合。如果只移动一个文件并在移动时将其重命名，您还可以包括文件名。
   [drive:][path]dirname1  指定要重命名的目录。
   dirname2                指定目录的新名称。
 

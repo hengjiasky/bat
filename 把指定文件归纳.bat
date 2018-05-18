@@ -1,1 +1,1 @@
-copy *关键字*.* 不同文件夹名\*.*
+copy *Keywords*.* Different filename or path*.*
